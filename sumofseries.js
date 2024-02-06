@@ -17,11 +17,11 @@ Explanation: For n = 5, sum will be 15.
 */
 
 function sumseries(n) {
-  sum = 0;
-  for(let i=0;i<=n;i++){
-    sum += i;
+    sum = 0;
+    for(let i=0;i<=n;i++){
+      sum += i;
+    }
+    return sum;
   }
-  return sum;
-}
-
-console.log(sumseries(5))
+  
+  console.log(sumseries(5))
