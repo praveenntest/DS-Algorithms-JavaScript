@@ -15,3 +15,19 @@ function valueindex(arr,n){
 }
 
 valueindex([15, 2, 45, 12, 7],5)
+
+//alternative
+
+class Solution{
+    valueEqualToIndex(arr,n){
+        //code here
+        let result = [];
+        for(let i=0;i<n;i++){
+            if(arr[i] == i+1){
+                  result.push(arr[i]);
+            }
+        }
+        return result;
+    }
+}
+
